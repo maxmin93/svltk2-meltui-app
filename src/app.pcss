@@ -1,0 +1,26 @@
+/* fonts: Noto Color Emoji, Noto Sans KR, Noto Serif KR */
+@import url('https://fonts.googleapis.com/css2?family=Noto+Color+Emoji&family=Noto+Sans+KR:wght@300;400;500;700&family=Noto+Serif+KR:wght@400;700&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer utilities {
+	.section-min-height {
+		min-height: calc(100vh - 129px);
+	}
+	.section-lg-min-height {
+		min-height: calc(100vh - 178px);
+	}
+	.section-min-width {
+		min-width: calc(100vw - 32px);
+	}
+	.section-lg-min-width {
+		min-width: calc(100vw - 368px);
+	}
+}
+
+html,
+body {
+	@apply sm:scroll-smooth;
+}
