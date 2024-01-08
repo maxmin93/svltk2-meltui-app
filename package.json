@@ -49,6 +49,8 @@
     "date-and-time": "^3.0.3",
     "drizzle-orm": "^0.29.2",
     "drizzle-pagination": "^1.0.10",
+    "mode-watcher": "^0.1.2",
+    "svelte-sonner": "^0.3.11",
     "tailwind-variants": "^0.1.20"
   }
 }
